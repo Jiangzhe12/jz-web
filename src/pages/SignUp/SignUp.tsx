@@ -5,6 +5,7 @@ function SignUp() {
   return (
     <div className={styles.Login}>
       <form>
+        <h1>用户登录</h1>
         <div>
           <label>
             username:
@@ -19,11 +20,8 @@ function SignUp() {
           </label>
         </div>
 
-        <div>
-          <input type="checkbox" /><label>Remember me</label>
-        </div>
-
         <button type='submit'>Submit</button>
+        <button type='reset'>Register</button>
       </form>
     </div>
   );
